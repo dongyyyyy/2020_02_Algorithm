@@ -6,7 +6,7 @@ public class LinkedListTest {
 		LinkedList list = new LinkedList();
 		ListNode temp = new ListNode();
 		
-		for(int i = 0; i <=6 ; i++)
+		for(int i = 0; i <= 6 ; i++)
 		{
 			list.addLastNode(Character.toString((char)(i+65)));
 		}
